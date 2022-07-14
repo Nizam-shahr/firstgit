@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=anton');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Arima');
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("anonymousPro-Regular.ttf") format("truetype");
+  font-display: block;
+  font-display: fallback;
+  font-display: optional;
+}
+
+.main-header{
+    width: 100%;
+    background: rgb(18, 208, 233);
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 1;
+}
+.main-header > div {
+display: inline-block;
+vertical-align: middle;
+}
+.main-logo {
+    width: 8rem;
+    margin-left: 7rem;
+} 
+.main-logo img {
+    vertical-align: middle;
+}
+.main-nav-item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 5rem;
+    
+}
+.main-nav-items{
+  margin: 1rem 1.3rem;  
+  
+}
+.main-nav-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.main-nav-items-focus {
+    padding: 0.8rem;
+    
+}
+.main-nav-items-focus a {
+    background: rgb(247, 2, 255);
+    padding: 0.8rem;
+}
+.main-nav-items a.de {
+    color: white;
+}
+
+.motivation-notice {
+ display: flex;
+ width: 100%;
+ /* height: 30rem; */
+ /* align-items: flex-start; */
+ justify-content: center; 
+ margin: 10rem 0 0 0;
+
+}
+.general {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:flex-start ;
+    margin: 0 5rem;
+    padding: 2rem 0;
+    
+}
+.notice {
+    width: 33.3%;
+    border: 2px solid rgb(18, 208, 233);
+    padding: 8px; 
+    margin:  0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+   /* margin-left: 4rem; */
+   margin-right: 10rem;
+   box-shadow: 5px 5px 0px 0px rgb(18, 208, 233) ;
+}
+.motivation{
+    width: 66.67%;
+    font-size: 1rem;
+    margin-left:5rem;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Arima",sans-serif;
+}
+.diff {
+    font-size: 2.5rem;
+    padding: 4px;
+ 
+}
+.write-up {
+    font-size: 0.9rem;
+    padding: 4px 0; 
+    margin: 0;
+  
+}
+.first {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.date {
+    padding: 8px 0;
+}
+.tutor_tittle{
+    padding: 1rem;
+    margin: 2rem 6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.tutor-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.tutors{
+    display: flex;
+    flex-direction: column;
+    width: 26.67%;
+    margin:0 0.5rem;
+     
+}
+.all_subject {
+    margin-top: 2rem;
+    text-align: center;
+}
+.subject_name {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    /* font-family: "Arima", sans-serif; */
+}
+.subject {
+    font-weight:normal ;
+    font-size: 1rem;
+    word-spacing: 2px;
+    font-family: "Arima", sans-serif;
+}
+.topic {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 7.5rem;
+}
+.student_image_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.student_image {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 0.8rem;
+  box-shadow: 3px 3px 3px 3px rgba(223, 222, 222, 0.8);
+  position: relative;
+  height: 22rem;
+  overflow: hidden;
+}
+.student_name{
+    font-family: "Monsterrat", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.student_post {
+    font-family: "Arima";
+    font-size: 1rem;
+    margin: 0;
+}
+.student_details {
+    margin: 0.8rem;
+}
+
+.flip_icon {
+    position: absolute;
+    bottom: -50px;
+    left: 11rem;
+    margin: 0;
+    font-size: 0.8rem;
+    /* color: white; */
+    background: url("back.png");
+    padding: 3.5rem;
+    transform:rotate(-88deg)  ;
+    transform-origin: center;
+    text-align: center;
+    width: 1.5rem;
+}
+.application_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2rem 0 ;
+    align-items: center;
+}
+.how {
+    margin:1rem 4rem;
+}
+.written_steps {
+    width: 45%;
+    margin: 1rem;
+}
+.picture_steps {
+    width: 40%;
+}
+.picture {
+    width: 95%;
+}
+.steps_container {
+    margin:1rem 2rem;
+}
+.heading_steps {
+    margin: 0 1.5rem;
+}
+.first_step {
+    font-size: 1rem;
+    margin: 0;
+    word-spacing: 4px;
+}
+.listed_steps {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "Arima", sans-serif;
+}
+.more {
+    color:rgb(91, 227, 245) ;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.why_heilbronn {
+    display: flex;
+    margin: 3rem 8rem;
+   font-family: "Monsterrat",sans-serif;
+}
+.first_reason {
+    word-spacing: 4px;  
+    line-height: 1.5rem;
+}
+.second_reason {
+    word-spacing: 4px;  
+    line-height: 1.5rem;
+}
+.maker {
+    color:rgb(91, 227, 245) ;  
+}
+.buildings {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.spaceship_image {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0.5rem;
+    justify-content: center;
+}
+.more_about {
+    font-family: "Monsterrat",sans-serif;
+    font-size: 1.3rem;
+    margin: 0 7rem;
+}
+.more_about a {
+    color:rgb(91, 227, 245)
+}
+.join_container {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    margin: 5rem 10rem;
+    justify-content:center;
+    background:rgb(91, 227, 245)  ;
+    padding: 1rem 0;
+    
+}
+.apply {
+   width: 50%;
+   padding: 3rem;
+   margin: 0 5%;
+   display: flex;
+   justify-content: center;
+}
+
+.join {
+    width:50%;
+    margin: 0 0 0 10%;
+}
+.join h1 {
+    font-size: 2.2rem;
+    color: #fff;
+
+}
+
+.apply h2 a {
+    background: rgb(247, 2, 255);
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+#footer {
+    background:rgb(91, 227, 245);
+    margin: 0 10rem;
+
+}
+.footer_container {
+    display: flex;  
+    align-items: flex-start;
+    padding: 1rem;
+    
+}
+.logos {
+    display: flex;
+    /* width: 40%; */
+    margin:0 0 0 10rem ;
+    
+}
+.stay {
+    /* width: 40%; */
+    margin: 0 0 0 5rem;
+    display: flex; 
+    /* justify-content: center; */
+}
+.stay h2 {
+    font-size: 1rem;
+}
+
+.logos a {
+  background:rgb(91, 227, 245);
+}
+.logo {
+    width: 1.5rem;
+   margin: 0 0.5rem;
+}
+
+
